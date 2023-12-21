@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-slate-50">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="./dist/output.css" />
+  <link rel="stylesheet" href="./global.css" />
+  <title>Search Demo</title>
+  <meta name="description" content="Search benchmark" />
+  <meta name="darkreader-lock" />
+
+  <head>
+
+  <body class="h-screen w-screen flex overflow-x-hidden touch-manipulation overflow-hidden">
+    <div class="flex w-full h-full place-content-center place-items-center ">
+
+      <div id="indicator" class="">Creating big database...</div>
+      <div id="main" class="hidden h-1/2 mx-8 w-full md:w-1/2 max-w-lg">
+        <input type="text" id="search-input" name="fullname" placeholder="Search" class="block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-base shadow-sm placeholder-slate-400
+        focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+        <div id="search-results" class=""></div>
+      </div>
+    </div>
+  </body>
+
+</html>
+
+<script src="./dist/index.js"></script>
+
+<style>
+</style>
